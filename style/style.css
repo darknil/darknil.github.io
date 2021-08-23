@@ -1,0 +1,257 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	background: linear-gradient(#0F2027,#284A59);
+}
+h1{
+
+}
+/*Header*/
+header{
+	width: 100%;
+	height: 840px;
+	/*	background: url('../img/header.jpg') no-repeat center;
+		background-size: cover;*/
+	max-height: 100vh;
+	overflow: hidden;
+}
+nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+}
+.soc_icons{
+	width: 20%;
+	z-index: 2;
+	margin-top: 20px;
+	display: flex;
+}
+.soc_link{
+	margin-left: 20px;
+}
+.soc_item{
+	width: 40px;
+	height: 40px;
+}
+.nav_container{
+	margin-top: 20px;
+	margin-right: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 2;
+
+}
+.nav_item{
+	font-size: 24px;
+	margin-left: 10px;
+}
+.nav_item:hover{
+	color: #F8AB18;
+	text-decoration: underline;
+	text-decoration-color: #FF8642 ;
+}
+.nav_underline{
+	margin-top: 16px;
+	width: 100%;
+	height: 3px;
+	background-color: black;
+}
+.video{
+	position: relative;
+	z-index: 1;
+}
+.video_media{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.header_text{
+	position: absolute;
+	top: 150px;
+	left: 40%;
+	text-align: center;
+	z-index: 2;
+}
+.header_text h1{
+	font-size: 144px;
+	font-family: 'MontblancCTT', arial;
+	margin-top: 0;
+	letter-spacing: 3px;
+	color: #FFFFFF;
+}
+.header_suptitle{
+	font-size: 48px;
+	padding-bottom: 0;
+	color: #382424;
+	text-shadow: #1D4350 1px 1px 0;
+}
+/*Header
+========================*/
+
+/*First Section*/
+.first_section{
+	margin-top: 0;
+	width: 100%;
+
+	background-color: #0F2027;
+	display: flex;
+	flex-wrap: wrap;
+}
+.section_img{
+	margin: 60px 0 80px 120px;
+	width: 40%;
+	height: 80%;
+}
+.section_text{
+	width: 458px;
+	color: white;
+	margin-top: 60px;
+	margin-left: 98px;
+}
+.section_text h2{
+	margin: 0;
+	font-size: 40px;
+	color: #A43931;
+	font-weight: bold;
+}
+.section_text p{
+	font-size: 30px;	
+	background: linear-gradient(to bottom, #1d4350, #a43931);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;	
+}
+/*First Section
+===========================*/
+/*Second Section*/
+.section_container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container_item{
+	width: 50%;
+	height: 395px;
+	overflow: hidden;
+}
+#content_item{
+	background: url('../img/Second_section_img.png') no-repeat center;
+	background-size: 100%;
+}
+#content_item2{
+	background: url('../img/Second_section_img2.png') no-repeat center;
+background-size: 100%;
+}
+#content_item3{
+	background: url('../img/Second_section_img3.png') no-repeat center;
+	background-size: 100%;
+}
+.container_item:last-child{
+	width: 100%;
+}
+.container_content{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	opacity: 0;
+	background-color: rgba(255, 69, 69, .2);
+
+	transition: opacity .5s linear;
+}
+.container_item:hover .container_content{
+	opacity: 1;
+}
+
+/*Second Section
+==========================*/
+
+/*Third Section*/
+.third_section{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.third_section_text{
+	width: 45%;
+	margin-left: 42px;
+}
+.third_section_text h2{
+	font-size: 48px;
+	color: #C34037;
+}
+.third_section_text p{
+	font-size: 29px;
+	color: white;
+}
+.third_section_img{
+	width: 45%;
+	margin-top: 7px;
+	margin-left: 40px;
+}
+/*Third Section
+==========================*/
+/*about us*/
+.about_us{
+	width: 100%;
+	display: flex;
+	margin-top: 48px	;
+}
+.greedy_rat{
+	margin-left: 40px;
+	margin-bottom: 130px;
+}
+.about_us_text{
+	margin-left: 43px;
+	color: white;
+}
+.about_us_text h2{
+	margin: 0;
+	font-size: 64px;
+	text-align: center;
+}
+.about_us_text p{
+	margin-top: 5px;
+	font-size: 36px;
+}
+/*about us
+==========================*/
+/*footer*/
+footer{
+	width: 100%;
+	height: 50px;
+	background: #766868;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+.creator_info{
+	display: flex;
+	align-items: center;
+}
+.creator_info p{
+	margin: 0;
+	padding: 0;
+}
+.lang{
+	display: flex;
+	align-items: center;
+}
+.lang p{
+	margin: 0;
+	padding: 0;
+	margin-right: 20px;
+}
+/*footer
+==============*/
