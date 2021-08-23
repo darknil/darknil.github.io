@@ -8,6 +8,88 @@ body{
 h1{
 
 }
+/*nav-btns*/
+.btns-container{
+	position: fixed;
+	top: 40%;
+	right: 0.5%;
+	z-index: 999;
+}
+.btn-item{
+	margin-top: 3px;
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	opacity: .5;
+	border-radius: 30px;
+	transition: all .5s ease-in-out;
+}
+.btn-clicked{
+	background-color: blue;
+	opacity: 1;
+}
+.btn-item:hover{
+	opacity: 1;
+	transition: all .5s ease-in-out;
+}
+#About:hover:before{
+	content: "about";
+	color: white;
+	font-size: 15px;
+	text-decoration: underline;
+	position: relative;
+	left: -40px;
+	top: 10px;
+	opacity: 1;
+	transition: opacity .3s linear;
+}
+#New_experience:hover:before{
+	content: "New_experience";
+	color: white;
+	font-size: 15px;
+	text-decoration: underline;
+	position: relative;
+	left: -110px;
+	top: 10px;
+	opacity: 1;
+	transition: opacity .3s linear;
+}
+#Screenshots:hover:before{
+	content: "Screenshots";
+	color: white;
+	font-size: 15px;
+	text-decoration: underline;
+	position: relative;
+	left: -85px;
+	top: 10px;
+	opacity: 1;
+	transition: opacity .3s linear;
+}
+#Descriptions:hover:before{
+	content: "Descriptions";
+	color: white;
+	font-size: 15px;
+	text-decoration: underline;
+	position: relative;
+	left: -85px;
+	top: 10px;
+	opacity: 1;
+	transition: opacity .3s linear;
+}
+#Contact_us:hover:before{
+	content: "Contact_us";
+	color: white;
+	font-size: 15px;
+	text-decoration: underline;
+	position: relative;
+	left: -75px;
+	top: 10px;
+	opacity: 1;
+	transition: opacity .3s linear;
+}
+/*nav-btns
+===============================*/
+
 /*Header*/
 header{
 	width: 100%;
