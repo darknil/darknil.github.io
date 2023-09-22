@@ -204,7 +204,7 @@ section {
   background: #fff;
 }
 .about .skills .progress:nth-child(1) .bar span {
-  width: 95%;
+  width: 90%;
 }
 .about .skills .progress:nth-child(2) .bar span {
   width: 80%;
