@@ -43,3 +43,11 @@ header .quote p {
   color: #fff;
   font-size: 2rem;
 }
+@media (max-width: 880px) {
+  header nav h3 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: end;
+    margin-right: 1rem;
+  }
+}

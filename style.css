@@ -147,17 +147,25 @@ section {
   background-color: #a6cad3;
   color: #a48a8a;
 }
-@media (max-width: 880px) {
-  header {
-    display: none;
-  }
-  .home h3 {
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-  .home .share a {
-    padding: 0;
-  }
+.home-arrow {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+.about-arrow-left {
+  position: absolute;
+  left: 2rem;
+  top: 52rem;
+}
+.about-arrow {
+  position: absolute;
+  right: 2rem;
+  top: 52rem;
+}
+.contacts-arrow {
+  position: absolute;
+  left: 2rem;
+  top: 102rem;
 }
 .title {
   font-size: 3rem;
@@ -242,4 +250,39 @@ section {
 .contacts .description h3 i {
   padding-right: 1rem;
   color: #000;
+}
+@media (max-width: 880px) {
+  header {
+    display: none;
+  }
+  .home h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .home .name span {
+    font-size: 3rem;
+    color: #fff;
+  }
+  .home .share a {
+    padding: 0;
+    margin: 0.5rem;
+  }
+
+  .container {
+    margin-left: 0;
+  }
+  .about .skills .progress {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+  }
+  .description {
+    display: block;
+  }
+  .about .description h3 {
+    font-size: 1.5rem;
+    color: #eee;
+  }
 }
