@@ -44,6 +44,9 @@ header .quote p {
   font-size: 2rem;
 }
 @media (max-width: 880px) {
+  body {
+    padding: 2.5rem;
+  }
   header nav h3 {
     color: #fff;
     font-size: 2rem;
