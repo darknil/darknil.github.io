@@ -251,6 +251,9 @@ section {
   color: #000;
 }
 @media (max-width: 880px) {
+  body {
+    padding: 2.5rem;
+  }
   header {
     display: none;
   }
